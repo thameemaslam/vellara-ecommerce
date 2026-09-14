@@ -1,0 +1,22 @@
+{
+  "name": "vellara-ecommerce",
+  "version": "1.0.0",
+  "description": "Premium fragrance e-commerce platform for VELLARA brand",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy:functions": "firebase deploy --only functions",
+    "deploy:hosting": "firebase deploy --only hosting",
+    "deploy:all": "firebase deploy"
+  },
+  "dependencies": {
+    "firebase": "^10.7.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "@vitejs/plugin-vue": "^5.0.0"
+  }
+}
